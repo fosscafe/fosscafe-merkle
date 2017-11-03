@@ -1,0 +1,50 @@
+{
+  "name": "bitcoin-merkle-proof",
+  "version": "0.1.0",
+  "description": "Build and verify Bitcoin Merkle proofs",
+  "keywords": [
+    "bitcoin",
+    "merkle",
+    "tree",
+    "proof",
+    "bip37"
+  ],
+  "author": "Matt Bell <mappum@gmail.com>",
+  "files": [
+    "lib",
+    "package.json",
+    "README.md"
+  ],
+  "main": "./index.js",
+  "scripts": {
+    "test-browser": "./test/browser.sh",
+    "test": "standard && nyc tape test/index.js | faucet && nyc report"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "create-hash": "^1.1.2"
+  },
+  "devDependencies": {
+    "buffer-reverse": "^1.0.1",
+    "faucet": "0.0.1",
+    "nyc": "^6.4.4",
+    "standard": "^7.0.0",
+    "tape": "^4.5.1",
+    "zuul": "^3.10.1",
+    "zuul-ngrok": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mappum/bitcoin-merkle-proof.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mappum/bitcoin-merkle-proof/issues"
+  },
+  "homepage": "https://github.com/mappum/bitcoin-merkle-proof#readme"
+}

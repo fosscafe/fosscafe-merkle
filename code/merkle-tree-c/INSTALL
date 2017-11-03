@@ -1,0 +1,5 @@
+Installing the Merkle Tree Library
+
+The Merkle Tree Library is a software library intended for linking to other
+software, it is therefore not installed. See README for details on how to build
+and use the Merkle Tree Library.

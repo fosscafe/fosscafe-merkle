@@ -1,0 +1,32 @@
+/* Enter Your Custom CSS Here */
+.wp-video-shortcode {
+	max-width: 100%;
+}
+
+.wp-audio-shortcode {
+	max-width: 100%;
+}
+
+div.background {
+	background: #FFF;
+}
+
+.cover.featured {
+ 	max-height:300px; 
+	position:relative;
+}
+
+.indexfeature .profileimage {
+ 	max-width: 640px;
+	max-height: 265px; 
+	position: absolute;
+	top: -80px;
+	width: 100%;
+}
+
+
+@media screen and (max-width:595px) {
+	.indexfeature .profileimage {
+		top: 0px;
+    }
+}
